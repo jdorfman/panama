@@ -1,5 +1,5 @@
 {
-  "name": "blinkmap",
+  "name": "blinky-map",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@s5fs & @jdorfman",
-  "license": "BSD",
+  "license": "MIT",
   "dependencies": {
     "johnny-five": "^0.8.1"
   }
