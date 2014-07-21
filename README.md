@@ -14,3 +14,6 @@ A demo project for jQuery &amp; MaxCDN Hack-a-thon - http://events.jquery.org/20
 * Install node.js
 * Download the maxcurl binary and put it in your PATH
 * Copy maxcdn.yml.EXAMPLE to ~/.maxcdn.yml and update the file with your API key details
+
+### Demo
+> http://instagram.com/p/qs0csFl143/
