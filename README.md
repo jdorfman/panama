@@ -21,4 +21,4 @@ A demo project for jQuery &amp; MaxCDN Hackathon - http://events.jquery.org/2014
 * Copy maxcdn.yml.EXAMPLE to ~/.maxcdn.yml and update the file with your API key details
 
 ### Demo
-> http://instagram.com/p/qs0csFl143/
+<video controls="" autoplay="" name="media"><source src="http://videos-h-0.ak.instagram.com/hphotos-ak-xaf1/10568200_277550629114060_1871575213_n.mp4" type="video/mp4"></video>
