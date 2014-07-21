@@ -12,9 +12,7 @@ module.exports = function(five) {
 		continents.OC = new five.Led({pin: 10});
 	};
 
-	that.blink = function(err, name) {
-		if (err) { return; }
-
+	that.blink = function(name) {
 		if (continents.hasOwnProperty(name)) {
 			continents[name].fadeIn(200,10);
 			setTimeout(function(){
