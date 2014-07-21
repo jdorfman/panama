@@ -1,24 +1,27 @@
 
-module.exports = function() {
+module.exports = function(five) {
   var 
 	that = this,
 	continents = {};
 
-  function init(five) {
-		that.five = five;
-		continent.NA = new five.Led({pin: 3});
-		continent.SA = new five.Led({pin: 5});
-		continent.EU = new five.Led({pin: 6});
-		continent.AS = new five.Led({pin: 9});
-		continent.OC = new five.Led({pin: 10});
-  }
+	that.init = function() {
+		continents.NA = new five.Led({pin: 3});
+		continents.SA = new five.Led({pin: 5});
+		continents.EU = new five.Led({pin: 6});
+		continents.AS = new five.Led({pin: 9});
+		continents.OC = new five.Led({pin: 10});
+	};
 
-	function blink(err, name) {
+	that.blink = function(err, name) {
 		if (err) { return; }
 
-		if (continent.hasOwnProperty(name)) {
-			console.log("Strobing " + name);
-			continent[name].strobe();
+		if (continents.hasOwnProperty(name)) {
+			continents[name].fadeIn(200,10);
+			setTimeout(function(){
+				continents[name].fadeOut(0, 500);
+			},500);
 		}
-	}
+	};
+
+	this.init();
 };
