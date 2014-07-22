@@ -1,8 +1,8 @@
 {
-  "name": "blinky-map",
-  "version": "0.0.1",
+  "name": "Panama",
+  "version": "0.0.2",
   "description": "",
-  "main": "server.js",
+  "main": "scripts/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
