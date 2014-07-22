@@ -15,5 +15,4 @@ board.on('ready', function() {
 		// Instead of blinker, place browser-wars here:
 		blinker.blink(data);
 	});
-
 });
