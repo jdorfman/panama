@@ -10,10 +10,10 @@ board.on('ready', function() {
 		maxcdn = new MaxCdnitiator({dataUrl: '/v3/reporting/logs.json?status=304', eventName: '304'});
 
 	maxcdn.on('304', function(data) {
-		console.log(data.user_agent);
+		//console.log(data.user_agent);
 
 		// Instead of blinker, place browser-wars here:
-		// blinker.blink(data);
+		blinker.blink(data);
 	});
 
 });
