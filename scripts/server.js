@@ -1,14 +1,16 @@
-var five = require("johnny-five"),
+var five = require('johnny-five'),
     board = new five.Board(),
 	Blinker = require('./blinker'),
 	MaxCdnitiator = require('./maxcdnitiator'),
-	maxcdn = new MaxCdnitiator();
+	
 
-board.on("ready", function() {
+board.on('ready', function() {
 
-	var blinker = new Blinker(five);
+	var blinker = new Blinker(five),
+		http304 = new MaxCdnitiator({dataUrl: '/v3/reporting/logs.json?status=304', eventName: '304'});
 
-	maxcdn.on('304', function(data) {
+	http304.on('304', function(data) {
+		console.log(data);
 		blinker.blink(data);
 	});
 
