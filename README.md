@@ -3,7 +3,7 @@ Panama (Beta)
 
 ![Panama Logo](https://raw.githubusercontent.com/MaxCDN/panama/jdorfman2/public/img/panama-logo-small.png)
 
-A WIP Demo Project for the [jQuery &amp; MaxCDN Hackathon](http://events.jquery.org/2014/chicago/#program) in Chicago.
+A WIP Demo Project for the [jQuery &amp; MaxCDN Hackathon](http://events.jquery.org/2014/chicago/#program) in Chicago. 
 
 ### Required
 
