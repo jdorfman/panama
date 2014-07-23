@@ -1,4 +1,4 @@
-Panama (Beta)
+Panama v0.0.3 (Beta)
 ==========
 
 ![Panama Logo](https://raw.githubusercontent.com/MaxCDN/panama/jdorfman2/public/img/panama-logo-small.png)
@@ -32,4 +32,4 @@ A WIP Demo Project for the [jQuery &amp; MaxCDN Hackathon](http://events.jquery.
 ### Demo
 
 * [v.001](http://instagram.com/p/qs0csFl143/)
-* [v.003](#)
+* [v.003](https://twitter.com/jdorfman/status/491748960646602752)
