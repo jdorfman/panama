@@ -17,7 +17,7 @@ A WIP Demo Project for the [jQuery &amp; MaxCDN Hackathon](http://events.jquery.
 
 ### Getting Started
 
-* Plugin your Arduino
+* Plugin your Arduino (USB)
 * Open the Arduino IDE
  * Choose > `File` > `Examples` > `Firmata` > `StandardFirmata`
  * ![Arduino IDE](https://raw.githubusercontent.com/MaxCDN/panama/jd-v003/public/img/arduino-setup.jpg)
@@ -26,7 +26,7 @@ A WIP Demo Project for the [jQuery &amp; MaxCDN Hackathon](http://events.jquery.
 * Move the `maxcurl` binary and put it in your PATH e.g. `/usr/local/bin/`
 * Copy `maxcdn.yml.EXAMPLE` to `~/.maxcdn.yml` and update the file with your API Credentials.
 * `$ git clone git@github.com:MaxCDN/panama.git`
-* `cd && panama && npm install`
+* `cd panama && npm install`
 * `npm start`
 
 ### Demo
