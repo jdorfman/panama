@@ -20,9 +20,12 @@ A WIP Demo Project for the [jQuery &amp; MaxCDN Hackathon](http://events.jquery.
 * Plugin your Arduino (USB)
 * Open the Arduino IDE
  * Choose > `File` > `Examples` > `Firmata` > `StandardFirmata`
- * ![Arduino IDE](https://raw.githubusercontent.com/MaxCDN/panama/jd-v003/public/img/arduino-setup.jpg)
+ * ![Arduino IDE](https://raw.githubusercontent.com/MaxCDN/panama/master/public/img/arduino-setup.jpg)
  * Click `Upload`
- * ![Upload](https://raw.githubusercontent.com/MaxCDN/panama/jd-v003/public/img/arduino-upload.png)
+ * ![Upload](https://raw.githubusercontent.com/MaxCDN/panama/master/public/img/arduino-upload.png)
+  * **Etc.:**
+   * [Prefernces](https://raw.githubusercontent.com/MaxCDN/panama/master/public/img/arduino-preferences.png)
+   * [Success Message](https://raw.githubusercontent.com/MaxCDN/panama/master/public/img/arduino-preferences.png)
 * Move the `maxcurl` binary and put it in your PATH e.g. `/usr/local/bin/`
 * Copy `maxcdn.yml.EXAMPLE` to `~/.maxcdn.yml` and update the file with your API Credentials.
 * `$ git clone git@github.com:MaxCDN/panama.git`
@@ -33,3 +36,4 @@ A WIP Demo Project for the [jQuery &amp; MaxCDN Hackathon](http://events.jquery.
 
 * [v.001](http://instagram.com/p/qs0csFl143/)
 * [v.003](https://twitter.com/jdorfman/status/491748960646602752)
+* [v.004](#)
